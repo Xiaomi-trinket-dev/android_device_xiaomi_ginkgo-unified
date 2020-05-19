@@ -55,9 +55,6 @@ TARGET_KERNEL_CLANG_VERSION := r353983d
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ginkgo
 TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
 
-# Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
-
 # Platform
 TARGET_BOARD_PLATFORM := trinket
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
