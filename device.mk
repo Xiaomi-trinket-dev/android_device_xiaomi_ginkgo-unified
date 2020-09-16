@@ -86,6 +86,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
+    android.hardware.bluetooth.a2dp@1.0-impl \
+    android.hardware.bluetooth.a2dp@1.0-service \
     audio.primary.trinket \
     audio.r_submix.default \
     audio.usb.default \
@@ -139,6 +141,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0 \
     com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     BluetoothQti \
+    libbluetooth \
     libbtconfigstore \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0 \
